@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <img
-      src="/src/images/logo.svg"
+      src="/images/logo.svg"
       alt="">
     <h1>Vue.js ハンズオン</h1>
   </header>
@@ -37,7 +37,7 @@ const items = ref([
     description:
       '刻んだ野菜をアボカドと混ぜてディップに。こんがり焼いたバゲットとお召し上がりください。',
     price: 480,
-    image: '/src/images/item1.jpg',
+    image: 'images/item1.jpg',
     soldOut: false,
     selected: false
   },
@@ -47,7 +47,7 @@ const items = ref([
     description:
       '子供のころに食べたかった、あのホットケーキを再現しました。素朴でどこか懐かしい味をどうぞ。',
     price: 1180,
-    image: 'src/images/item2.jpg',
+    image: 'images/item2.jpg',
     soldOut: false,
     selected: false
   },
@@ -57,7 +57,7 @@ const items = ref([
     description:
       'ロサンゼルス生まれのスパークリングウォーター。ノンカロリー、ノンアルコールの新感覚飲料です。',
     price: 320,
-    image: 'src/images/item3.jpg',
+    image: 'images/item3.jpg',
     soldOut: true,
     selected: false
   },
@@ -67,7 +67,7 @@ const items = ref([
     description:
       'イタリア産チーズをたっぷりかけたアツアツのフレンチフライ。みんな大好きな一品です。',
     price: 670,
-    image: 'src/images/item4.jpg',
+    image: 'images/item4.jpg',
     soldOut: false,
     selected: false
   }
